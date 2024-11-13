@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Elements</title>
+</head>
+<body>
+
+    <!-- Audio element with controls, autoplay, loop, and preload attributes -->
+    <h2>Audio Example</h2>
+    <audio controls autoplay loop preload="auto">
+        <!-- The audio file is specified below -->
+        <source src="audio.mp3" type="audio/mp3">
+        <!-- In case the browser doesn't support the audio element, this message will be shown -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <p><strong>Explanation:</strong> 
+    - <strong>controls</strong> adds play, pause, and volume controls to the audio player.
+    - <strong>autoplay</strong> automatically starts the audio when the page loads.
+    - <strong>loop</strong> makes the audio repeat indefinitely.
+    - <strong>preload="auto"</strong> ensures the audio is fully loaded when the page loads.</p>
+
+    <hr>
+
+    <!-- Video element with controls, autoplay, loop, poster, and preload attributes -->
+    <h2>Video Example</h2>
+    <video controls autoplay loop muted preload="metadata" width="320" height="240" poster="thumbnail.jpg">
+        <!-- The video file is specified below -->
+        <source src="video.mp4" type="video/mp4">
+        <!-- In case the browser doesn't support the video element, this message will be shown -->
+        Your browser does not support the video element.
+    </video>
+
+    <p><strong>Explanation:</strong>
+    - <strong>controls</strong> adds play, pause, volume, and fullscreen controls to the video player.
+    - <strong>autoplay</strong> starts playing the video automatically when the page loads.
+    - <strong>loop</strong> makes the video play in a continuous loop.
+    - <strong>muted</strong> makes the video silent when played.
+    - <strong>preload="metadata"</strong> loads only the metadata (e.g., duration) before the video starts playing.
+    - <strong>poster</strong> specifies an image (thumbnail.jpg) to be shown before the video starts playing.
+    - <strong>width="320" height="240"</strong> sets the width and height of the video player.</p>
+
+</body>
+</html>

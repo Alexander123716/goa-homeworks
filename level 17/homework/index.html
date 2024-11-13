@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <header id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm <strong>ალექსანდრე</strong>. I'm passionate about web development and football.</p>
+        <img src="https://via.placeholder.com/150" alt="My Photo">
+    </header>
+
+    <!-- Navigation Links -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a web development enthusiast. I enjoy working with HTML, CSS, JavaScript, and learning about backend development. I am currently learning full-stack development and excited about the endless possibilities in the tech world.</p>
+        <p>Things I enjoy:
+            <ul>
+                <li>Playing football</li>
+                <li>Building websites</li>
+                <li>Reading tech blogs</li>
+            </ul>
+        </p>
+        <p>Things I dislike:
+            <ul>
+                <li>Unnecessary complexity in code</li>
+                <li>Procrastination</li>
+            </ul>
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to reach out, please fill out the form below!</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
